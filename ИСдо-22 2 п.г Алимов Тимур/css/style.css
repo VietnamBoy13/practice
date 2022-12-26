@@ -1,0 +1,21 @@
+body {
+          background: linear-gradient(180deg, #034AFF 0%, rgba(255, 255, 255, 0) 100%) fixed;
+          display: flex;
+          justify-content: center;
+          font-size: 24px; 
+      }
+.square { 
+  height: 800px;
+  width: 800px;
+  background-color: #BB38FC;
+}
+.image_block {
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+        width: 250px; 
+    }
+.text {
+	margin-left: auto;
+    margin-right: auto;
+}
