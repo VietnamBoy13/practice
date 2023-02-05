@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&family=Lato:wght@700&display=swap');
+
+body{
+	margin: 0;
+}
+.body{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	width: auto;
+	height: 86px;
+}
+.body_2{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	width: auto;
+	height: 75px;
+}
+.header_2{
+	height: 37px;
+	width: 1320px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.header{
+	height: 37px;
+	width: 1320px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	height: 20px;
+	width: 152.5999755859375px;
+}
+.menu{
+	background: #9CCED3;
+	height: 37px;
+	width: 200px;
+	border-radius: 10px;
+}
+.entrance{
+	height: 37px;
+   width: 122px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.text_header{
+	cursor: pointer;
+	text-decoration: none;
+	font-family: 'Cormorant Infant', serif;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	color: #000000;
+}
+
+input[name="r"]{
+	position: absolute;
+	visibility: hidden;
+ }
+input {
+	font-family: 'Montserrat Alternates', sans-serif;
+	border: 2px solid #86b5c9;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	
+}
+#r1:checked ~ .s1 {
+	visibility: visible;
+	margin-left: 0px;
+	margin-top: 0px;
+	transition: all 300ms ease-in-out;
+ }
+ 
+ #r2:checked ~ .s1 {
+	visibility: hidden;
+	position: absolute;
+	margin-top: -100%;
+	transition: all 300ms ease-in-out;
+	
+ }
+.conteiner{
+	position: absolute;
+	background-color: #9CCED3;
+	width: 190px;
+   height: 78px;
+   border-radius: 10px;
+   top: 100px;
+}
+ .button-one{
+	position: absolute;
+	width: 30px;
+	height: 15px;
+	margin: 15px;
+	cursor: pointer; /*Определяет тип курсора*/
+	background-color: rgb(136, 55, 55);
+	opacity: 1;
+	border-radius: 10px; 
+	transform: translate(130px , -23px)
+ }
+ .button-one:hover{
+	position: absolute;
+	background-color: rgb(245, 74, 74);
+	transform:scale(1.1);
+	transform: translate(130px , -23px);
+	transition: all 0.2s ease;
+ }
+  .button-two{
+	position: absolute;
+	width: 30px;
+	height: 15px;
+	margin: 15px;
+	cursor: pointer; /*Определяет тип курсора*/
+	opacity: 1;
+	border-radius: 10px; 
+	transform: translate(-10px , -23px);
+	font-size: 15px;
+ }
+ .button-two:hover{
+	position: absolute;
+	transform:scale(1.1);
+	transform: translate(-5px , -23px);
+	transition: all 0.2s ease;
+ }
+.form-field{
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.icon{
+	width: 32px;
+   height: 32px;
+}
+
+
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	height: 1047px;
+}
+.block_main_glav{
+	width: 1286px;
+	height: 1047px;
+	display: flex;
+	justify-content: space-between;	
+}
+
+
+.block_main_left{
+	width: 215px;
+	height: 1047px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+
+.block_main_left_top{
+	
+	width: 215px;
+	height: 754px;
+}
+.block_main_left_top_text{
+	font-family: 'Cormorant Infant', serif;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	color: #474A51;
+	width: 215px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-top: 6px;
+	padding-left: 10px; /*Отступ текста внутри блока с лева*/
+	line-height: 19px; /*Величина пространства для текста*/
+	cursor: default;
+}
+
+.s2:hover{
+	background: #CEDFE1;
+	cursor: pointer;
+}
+.Vector{
+	width: 215px;
+	height: 0px;
+	border: 1px solid #E5E5E5;
+	
+}
+.block_main_left_bottom{
+	background-color: #F9F8F8;
+	width: 215px;
+	height: 262px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+.block_text_b{
+	width: 193px;
+	height: 29px;
+	margin-left: 5px ;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.main_left_text_b{
+	font-family: 'Cormorant Infant', serif;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 11px;
+	color: #000000;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	width: 144px;
+	height: 29px;
+}
+
+.block_main_right{
+	width: 974px;
+	height: 892px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+.block_main_right_3pieces{
+	width: 974px;
+	height: 410px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.block_product{
+	width: 260px;
+	height: 410px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.block_product_text{
+	width: 236px;
+	height: 127px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+.name{
+	font-family: 'Cormorant Infant', serif;
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	width: 236px;
+	height: 34px;
+	color: #474A51;
+}
+.characteristics{
+	width: 236px;
+	height: 83px;
+	display: flex;
+	justify-content: space-between;
+}
+.characteristics-name{
+	width: 100px;
+	height: 83px;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 13px;
+	color: #828282;
+}
+.characteristics-numbers{
+	width: 25px;
+	height: 83px;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 14px;
+	color: #474A51;
+}
+.block_product_price{
+	width: 236px;
+	height: 56px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+.price_old{
+	width: 65px;
+	height: 17px;
+	font-family: 'Cormorant Infant', serif;
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	color: #B1B1B1;
+}
+.price_new{
+	display: flex;
+	justify-content: space-between;
+	width: 236px;
+	height: 34px;
+}
+.basket{
+	width: 125px;
+   height: 34px;
+   background-color: #15616D;
+   display: flex;
+   align-items: center;
+   padding-left: 10px;
+}
+.price{
+	font-family: 'Cormorant Infant', serif;
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	color: #FAFAFA;
+	margin-left: 15px;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	height: 200px;
+	background: #474A51;
+}
+.block_footer{
+	width: 1320px;
+	height: 135px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer_logo{
+	width: 156px;
+	height: 130px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+.information{
+	width: 311px;
+	height: 130px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+.contacts{
+	width: 244px;
+	height: 114px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+.title{
+	width: 311px;
+	height: 17px;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 16px;
+	color: #FAFAFA
+}
+.text{
+	width: 311px;
+	height: 98px;
+	display: flex;
+	justify-content: space-between;
+	color: #C7C7C7;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 13px;
+}

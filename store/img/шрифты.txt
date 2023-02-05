@@ -1,0 +1,12 @@
+https://fonts.google.com/specimen/Lato
+Для войти используется Bold
+для каталога тот же шрифт, но Medium
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&family=Lato:wght@700&display=swap');
+</style>
+
+Css
+
+font-family: 'Cormorant Infant', serif;
+font-family: 'Lato', sans-serif; 
